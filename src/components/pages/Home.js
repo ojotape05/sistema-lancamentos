@@ -163,7 +163,7 @@ function Home(){
             dataForm.append('file', processamento.file)
             dataForm.append('tp_exportacao', JSON.stringify(processamento.tp_exportacao))
             
-            fetch(`http://32.30.14.74:5000/processar-arquivo`,{
+            fetch(`http://localhost:5000/processar-arquivo`,{
                 mode: 'cors',
                 method: 'POST',
                 body: dataForm,
