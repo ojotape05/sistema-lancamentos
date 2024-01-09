@@ -283,5 +283,5 @@ function processarValores(fileContent) {
 };
 
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://32.30.14.74:${port}`);
+  console.log(`Servidor rodando em http://localhost:${port}`);
 });
