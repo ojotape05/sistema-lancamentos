@@ -1,0 +1,8 @@
+.hover{
+    background-color: darkgrey;
+    font-style: italic;
+}
+
+.hover:hover{
+    background-color: grey;
+}

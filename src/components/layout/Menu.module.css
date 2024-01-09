@@ -1,0 +1,38 @@
+.menu{
+    background-color: #0b3b66;
+    height: 100vh;
+    margin-top: -6vh;
+    transition: .8s;
+    position: fixed;
+    overflow: auto;
+}
+
+.open{
+    width: 180px;
+}
+
+.close{
+    width: 0px;
+}
+
+.menu_header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 55px;
+    color: white;
+}
+
+.menu_header svg{
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu_header p{
+    margin-right: 15%
+}
+
+.d_flex{
+    display: flex;
+}

@@ -1,0 +1,25 @@
+
+.lancamentos{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    overflow: auto;
+    width: 60%;
+    min-width: 760px;
+    max-width: 1100px;
+    height: 80vh;
+}
+
+.pages_div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    width: 60px;
+}
+
+.pages_div svg{
+    color: #004b8d;
+    cursor: pointer;
+    height: 2em;
+    width: 2em;
+}

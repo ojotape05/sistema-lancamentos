@@ -1,0 +1,43 @@
+.home_container{
+    display: flex;
+    padding: 25px;
+    gap: 20px;
+}
+
+.title{
+    color:#004b8d;
+    text-align: center;
+}
+
+.form{
+    padding: 15px;
+}
+
+.div_filtro{
+    display: flex;
+    gap: 20px;
+}
+
+.div_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading{
+    position: absolute;
+    background-color: #999999;
+    height: 94vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.false{
+    display: none
+}
+
+.true{
+    display: flex;
+}
